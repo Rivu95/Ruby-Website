@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ruby Discord Bot</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Ruby</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Features</a></li>
+          <li><a href="#portfolio">Examples</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li class="drop-down"><a href="">Commands</a>
+            <ul>
+              <li><a href="#">Clan Commands</a></li>
+              <li><a href="#">CWL Commands</a></li>
+              <li><a href="#">Player Commands</a></li>
+              <li><a href="#">CWL Stats Comaparision</a></li>
+              <li><a href="#">General & Settings</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <a href="https://discord.gg/q3sX5su" class="get-started-btn scrollto">Support Server</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <h1>Ruby Discord Bot</h1>
+          <h2>Clash of Clans Discord Bot developed using Discord.js</h2>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="https://discord.com/api/oauth2/authorize?client_id=686226185163898917&permissions=388176&scope=bot%20applications.commands"
+          class="btn-get-started scrollto">Invite Me</a>
+      </div>
+
+      <div class="row icon-boxes">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-calculator-line"></i></div>
+            <h4 class="title"><a>CWL Calculations</a></h4>
+            <p class="description">Ease up all your Clan War League Calcautaions i.e. Stars, Hitrate, Defence and more
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-gallery-fill"></i></div>
+            <h4 class="title"><a>Image Reply</a></h4>
+            <p class="description">Text is Oldschool and Black & White, Images are here to bring colour in your Discord
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-user-smile-line"></i></div>
+            <h4 class="title"><a>User Friendly</a></h4>
+            <p class="description">Easy to Setup and interactive Help command</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-search-eye-line"></i></div>
+            <h4 class="title"><a>Search Anything</a></h4>
+            <p class="description">Various types of Searches with stunning images</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About The Bot</h2>
+          <p>Ruby is primarily for CWL but it does other general stuffs too.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              One of the first Clash of clans Discord Bot that does Image processing for results,
+              with images there are lot more control with the data presented. Also easy to share and showoff
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Player Profile Image</li>
+              <li><i class="ri-check-double-line"></i> Clan Profile Image</li>
+              <li><i class="ri-check-double-line"></i> War Preparation and War Day Images</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Ruby's primary focus is to improve a clan's CWL performance and for that it provides lineup
+              recommendations, performance growth curve of every player aslo comparisions between clans
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Features</h2>
+          <p>Most of the Features are commonly found in other bots, but i have added extra in most of them, have a quick
+            glance over them.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+                  </path>
+                </svg>
+                <i class="bx bx-search-alt"></i>
+              </div>
+              <h4><a href="">Search Clan and Player</a></h4>
+              <p>Search Clan, Player and also accounts associated with Discord id</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
+                  </path>
+                </svg>
+                <i class="bx bxs-customize"></i>
+              </div>
+              <h4><a href="">Theme & Background*</a></h4>
+              <p>Change your CWL theme and war, clan background with wallpapers (*with patreon)</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
+                  </path>
+                </svg>
+                <i class="bx bx-spreadsheet"></i>
+              </div>
+              <h4><a href="">CWL performance Sheet</a></h4>
+              <p>Provides an Excel sheet of a clan after CWL ends consisting player performance</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
+                  </path>
+                </svg>
+                <i class="bx bx-layer"></i>
+              </div>
+              <h4><a href="">Performance History</a></h4>
+              <p>Check player's CWL performance growth after every CWL</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572">
+                  </path>
+                </svg>
+                <i class="bx bx-time-five"></i>
+              </div>
+              <h4><a href="">Time & TimeZone</a></h4>
+              <p>Save Clan mates time and timezone to know their local time</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                    d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                  </path>
+                </svg>
+                <i class="bx bxs-notification"></i>
+              </div>
+              <h4><a href="">CWL full Bonus Notifications</a></h4>
+              <p>Get a Notification if somebody in clan finish 8 stats or Full bonus in CWL</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Sevices Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Examples</h2>
+          <p>Some Images from bot for your understanding of bot's workings.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-clan-player">Clan & Player</li>
+              <li data-filter=".filter-cwl">CWl</li>
+              <li data-filter=".filter-war">WAR</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cwl">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cwl-clan-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cwl roster</h4>
+                <p>Roster of a CWL group</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cwl-clan-image.png" data-gall="portfolioGallery" class="venobox"
+                    title="cwl 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cwl">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cwl-top15-stars-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cwl stars</h4>
+                <p>Stars collected by players of a clan</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cwl-top15-stars-image.png" data-gall="portfolioGallery" class="venobox"
+                    title="cwl 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cwl">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cwl-hitrate-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cwl hitrate</h4>
+                <p>CWL hitrate of players of a clan</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cwl-hitrate-image.png" data-gall="portfolioGallery" class="venobox"
+                    title="cwl 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cwl">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cwl-ranks-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cwl ranks</h4>
+                <p>Ranks of clans in a CWL group</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cwl-ranks-image.png" data-gall="portfolioGallery" class="venobox"
+                    title="cwl 5"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cwl">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cwl-defence-stats-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CWL defence</h4>
+                <p>CWL defence stats of a clan</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cwl-defence-stats-image.png" data-gall="portfolioGallery"
+                    class="venobox" title="cwl 6"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clan-player">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/player-profile-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Player</h4>
+                <p>Profile of a player</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/player-profile-image.png" data-gall="portfolioGallery" class="venobox"
+                    title="clan-player 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clan-player">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/clan-image.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Clan</h4>
+                <p>Profile of a clan</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/clan-image.png" data-gall="portfolioGallery" class="venobox"
+                    title="clan-player 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-war">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/war.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>War</h4>
+                <p>War Stats of a clan</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/war.png" data-gall="portfolioGallery" class="venobox" title="war 1"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Some of the most asked question in Ruby Support Server</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse"
+                href="#faq-list-1">How cwl hitrates are calculated in ruby? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p>
+                  Attack hitrate = number of 3*/total no. Of attacks
+                  Defense hitrate = number of def/total attacks on that base
+                  Townhall levels don't matter
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2"
+                class="collapsed">How to setup default clan in a channel? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                  +setup #channel #clantag
+                  1 clan per channel, +unlink in that channel to unclaim it
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3"
+                class="collapsed">Why Ruby is so slow? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+                  Image processing is a cpu heavy task and takes more time to generate than text messages and after that
+                  there is upload time. This makes the whole process slower. Still its speed is satisfactory
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                class="collapsed">
+                How are season points measured/assigned? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+                  Season points are given based on one players performance in cwl. It gives points based on 3 stars, 2
+                  stars defences. Points gets deducted when they miss, dips (dips points are deducted from total 3/2
+                  points). Also their are some bonus points based on cumulative matches played vs stars gained ratio.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3>Support Server</h3>
+          <p> Bot Unresponsive, Can't understand commands at all, spelling mistake (i do that a lot) or If you have an
+            Awesome Suggestion, Feel free to join the Support Server.</p>
+          <a class="cta-btn" href="https://discord.gg/q3sX5su">Support Server</a>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
+              labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
+              dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main> <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Ruby</h3>
+            <strong>Email:</strong> shygameboy@gmail.com<br>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://discord.gg/q3sX5su" title="Join Ruby Server" class="discord"><i class="bx bxl-discord"></i></a>
+        <a href="https://github.com/Rivu95" title="Check My Github"class="github"><i class="bx bxl-github"></i></a>
+        <a href=" https://www.patreon.com/RubyDiscordBot" title="Support us on patreon" class="patreon"><i class="bx bxl-patreon"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
