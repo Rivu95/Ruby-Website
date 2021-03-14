@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #d82da5;
+  background: #bb2167;
   color: #fff;
   transition: all 0.4s;
 }
@@ -1076,7 +1076,7 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: rgb(247, 110, 178);
+  background: #f1d2e0;
   border-radius: 4px;
   position: relative;
 }
@@ -1284,19 +1284,17 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background:  #ebc6da;
+  background: #ebc6da;
   box-shadow: 0px 2px 15px rgba(241, 114, 152, 0.08);
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
-  border-top: 3px #469fdf;
-  box-shadow: 0px 2px 15px rgba(241, 114, 152, 0.1);
+  padding: 30px 0 30px 0;
   background: #ebc6da;
 }
 
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-contact h3 {
@@ -1335,7 +1333,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fa33ae;
+  color: #bb2167;
   font-size: 18px;
   line-height: 1;
 }
@@ -1419,7 +1417,7 @@ section {
 #footer .social-links a {
   font-size: 30px;
   display: inline-block;
-  background: #f82fa4;
+  background: #bb2167;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
