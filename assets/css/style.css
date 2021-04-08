@@ -445,19 +445,19 @@ h6 {
     padding-top: 80px;
 }
 
-#hero h1 {
+#hero h2 {
     margin: 0;
-    font-size: 56px;
+    font-size: 58px;
     font-weight: 700;
     line-height: 72px;
     color: #1f6b9e;
     font-family: "Poppins", sans-serif;
 }
 
-#hero h2 {
+#hero h3 {
     color: #15496b;
     margin: 10px 0 0 0;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 #hero .btn-get-started {
