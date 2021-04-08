@@ -445,7 +445,7 @@ h6 {
     padding-top: 80px;
 }
 
-#hero h2 {
+#hero h1 {
     margin: 0;
     font-size: 58px;
     font-weight: 700;
@@ -454,7 +454,7 @@ h6 {
     font-family: "Poppins", sans-serif;
 }
 
-#hero h3 {
+#hero h2 {
     color: #15496b;
     margin: 10px 0 0 0;
     font-size: 23px;
@@ -546,11 +546,11 @@ h6 {
     #hero {
         height: auto;
     }
-    #hero h2 {
+    #hero h1 {
         font-size: 28px;
         line-height: 36px;
     }
-    #hero h3 {
+    #hero h2 {
         font-size: 18px;
         line-height: 24px;
     }
