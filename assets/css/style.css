@@ -206,7 +206,7 @@ h6 {
     opacity: 0;
     visibility: hidden;
     padding: 10px 0;
-    background: #fff;
+    background: #383C3C;
     box-shadow: 0px 0px 20px rgba(18, 66, 101, 0.1);
     transition: 0.3s;
     border-radius: 5px;
@@ -228,13 +228,13 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
-    color: #124265;
+    color: #ffffff;
 }
 
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #d323b6;
+    color: #d32eb7;
 }
 
 .nav-menu .drop-down>a:after {
@@ -336,7 +336,7 @@ h6 {
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: #fff;
+    background: #383C3C;
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -353,7 +353,7 @@ h6 {
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #124265;
+    color: #fff;
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
@@ -362,7 +362,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #2487ce;
+    color: #d32eb7;
     text-decoration: none;
 }
 
@@ -398,7 +398,7 @@ h6 {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(10, 38, 58, 0.6);
+    background: rgba(10, 38, 58, 0.65);
     overflow: hidden;
     display: none;
     transition: ease-in-out 0.2s;
@@ -487,7 +487,7 @@ h6 {
     position: relative;
     overflow: hidden;
     background: #fc88ba;
-    box-shadow: 0 10px 30px 10px rgba(18, 66, 101, 0.45);
+    box-shadow: 0 10px 30px 10px rgba(2, 7, 10, 0.45);
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
     z-index: 1;
